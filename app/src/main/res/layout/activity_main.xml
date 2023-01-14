@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_l"
+    android:background="@drawable/fon_main">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/mif_sush_lable"
+        android:paddingBottom="120dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Drev_mif_such"
+                style="@style/text_main_csr"
+                android:id="@+id/button"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Mif_narod_mir"
+                style="@style/text_main_csr"
+                android:id="@+id/button2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Dragon"
+                style="@style/text_main_csr"
+                android:id="@+id/button3"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Vedmi_i_demon_such"
+                style="@style/text_main_csr"
+                android:id="@+id/button4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Edinorog"
+                style="@style/text_main_csr"
+                android:id="@+id/button5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Oborotni_vamp"
+                style="@style/text_main_csr"
+                android:id="@+id/button6"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Chudisha_sovr_mir"
+                style="@style/text_main_csr"
+                android:id="@+id/button7"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Chudisha_mir_kino"
+                style="@style/text_main_csr"
+                android:id="@+id/button8"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Russ_mif"
+                style="@style/text_main_csr"
+                android:id="@+id/button9"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Алфавитный указатель"
+                style="@style/text_main_csr"
+                android:id="@+id/button10"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

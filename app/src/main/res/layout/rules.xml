@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/rules">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="#fff5d9">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Помощь"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                android:layout_marginTop="10dp"
+                android:typeface="serif" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="  Информация о выбранном существе расположена на двух экранах:"
+                android:id="@+id/textView5"
+                android:layout_gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:typeface="serif"
+                android:textSize="18dp"
+                android:layout_marginBottom="10dp" />
+
+            <ImageView
+                android:layout_width="344sp"
+                android:layout_height="298sp"
+                android:id="@+id/imageView3"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/screen2"
+                android:layout_marginLeft="5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" Для перехода к дополнительному экрану нужно сдвинуть пальцем главный экран вправо, как показано на рисунке."
+                android:id="@+id/textView6"
+                android:layout_gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:typeface="serif"
+                android:textSize="18dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp" />
+
+            <ImageView
+                android:layout_width="304sp"
+                android:layout_height="351sp"
+                android:id="@+id/imageView4"
+                android:src="@drawable/screen_move_dop"
+                android:layout_marginLeft="30dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Для возврата к основному экрану, соответственно,  проведите пальцем по экрану влево.\n\n
+Для перехода в меню сдвиньте основной экран влево. \n"
+                android:id="@+id/textView3"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:typeface="serif"
+                android:textSize="18dp" />
+            <ImageView
+                android:layout_width="350sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView5"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/menu_move"
+                android:layout_marginLeft="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="  Чтобы перейти к выбранному разделу существ или же вернуться на список разделов нужно воспользоваться на устройстве кнопкой назад\n"
+                android:id="@+id/textView4"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:typeface="serif"
+                android:textSize="18dp" />
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView6"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/but_back" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="  или же выбрать соответствующий пункт меню. \n\n  Вы можете поделиться с друзьями ссылкой на приложение или же оставить ваши пожелания разработчикам, выбрав пункт меню «Ваши пожелания».\n\n\n\n "
+                android:id="@+id/textView7"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:typeface="serif"
+                android:textSize="18dp" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--разметка для горизонтального списка -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/text1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textAppearance="?android:attr/textAppearanceMedium"
+    android:gravity="center_vertical"
+    android:textStyle="bold|italic"
+    android:textSize="40dp"
+    android:minWidth="50dp"
+    android:textColor="#f7fffa"
+    android:shadowColor="#ffff00"
+    android:shadowDx="5"
+    android:shadowDy="5"
+    android:shadowRadius="7"
+    android:nestedScrollingEnabled="false" />
